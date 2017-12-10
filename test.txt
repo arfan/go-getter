@@ -1,0 +1,30 @@
+GOROOT=/usr/local/Cellar/go/1.9.2/libexec #gosetup
+GOPATH=/Users/mapan_889/GoProjects #gosetup
+/usr/local/Cellar/go/1.9.2/libexec/bin/go build -i -o /private/var/folders/2h/2dy13r1j7hs6jbpyc8yymg4c0000gn/T/___arisan_loyalty /Users/mapan_889/GoProjects/src/gitlab.ruma.co.id/itdev/arisan_loyalty/cmd/arisan_loyalty/main.go #gosetup
+../../module/thor/mjolnir.go:10:2: cannot find package "github.com/newrelic/go-agent" in any of:
+	/usr/local/Cellar/go/1.9.2/libexec/src/github.com/newrelic/go-agent (from $GOROOT)
+	/Users/mapan_889/GoProjects/src/github.com/newrelic/go-agent (from $GOPATH)
+../../lib/raccoon/raccoon.go:10:2: cannot find package "github.com/nlopes/slack" in any of:
+	/usr/local/Cellar/go/1.9.2/libexec/src/github.com/nlopes/slack (from $GOROOT)
+	/Users/mapan_889/GoProjects/src/github.com/nlopes/slack (from $GOPATH)
+../../../../../github.com/openzipkin/zipkin-go-opentracing/observer.go:4:2: cannot find package "github.com/opentracing-contrib/go-observer" in any of:
+	/usr/local/Cellar/go/1.9.2/libexec/src/github.com/opentracing-contrib/go-observer (from $GOROOT)
+	/Users/mapan_889/GoProjects/src/github.com/opentracing-contrib/go-observer (from $GOPATH)
+../../module/thor/mjolnir.go:11:2: cannot find package "github.com/opentracing/opentracing-go" in any of:
+	/usr/local/Cellar/go/1.9.2/libexec/src/github.com/opentracing/opentracing-go (from $GOROOT)
+	/Users/mapan_889/GoProjects/src/github.com/opentracing/opentracing-go (from $GOPATH)
+../../module/thor/zipkin.go:14:2: cannot find package "github.com/opentracing/opentracing-go/ext" in any of:
+	/usr/local/Cellar/go/1.9.2/libexec/src/github.com/opentracing/opentracing-go/ext (from $GOROOT)
+	/Users/mapan_889/GoProjects/src/github.com/opentracing/opentracing-go/ext (from $GOPATH)
+../../../../../github.com/openzipkin/zipkin-go-opentracing/log-materializers.go:31:2: cannot find package "github.com/opentracing/opentracing-go/log" in any of:
+	/usr/local/Cellar/go/1.9.2/libexec/src/github.com/opentracing/opentracing-go/log (from $GOROOT)
+	/Users/mapan_889/GoProjects/src/github.com/opentracing/opentracing-go/log (from $GOPATH)
+../../../../../github.com/Shopify/sarama/message.go:11:2: cannot find package "github.com/pierrec/lz4" in any of:
+	/usr/local/Cellar/go/1.9.2/libexec/src/github.com/pierrec/lz4 (from $GOROOT)
+	/Users/mapan_889/GoProjects/src/github.com/pierrec/lz4 (from $GOPATH)
+../../../../../github.com/Shopify/sarama/broker.go:14:2: cannot find package "github.com/rcrowley/go-metrics" in any of:
+	/usr/local/Cellar/go/1.9.2/libexec/src/github.com/rcrowley/go-metrics (from $GOROOT)
+	/Users/mapan_889/GoProjects/src/github.com/rcrowley/go-metrics (from $GOPATH)
+
+Process finished with exit code 1
+
